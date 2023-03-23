@@ -1,4 +1,22 @@
-const calculateFactoriel = (factorielNumber) => {
+//1.Örnek;
+
+let Değer=3;
+ 
+let factorial = function(n) {
+    if(n == 0) {
+        return 1
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+ 
+console.log("Değer :"+Değer+ "Faktöriyel: "+ factorial(Değer));
+
+
+//2.Örnek;
+
+
+/* const calculateFactoriel = (factorielNumber) => {
     let result = 1;
     if(typeof factorielNumber === "number" && factorielNumber != Infinity) {
        for (let i = 1; i<=factorielNumber ; i++) {
@@ -11,4 +29,9 @@ const calculateFactoriel = (factorielNumber) => {
  
     }
  }
- console.log(calculateFactoriel(factorielNumber= 5))
+ console.log(calculateFactoriel(factorielNumber= 5)) */
+
+
+
+
+
